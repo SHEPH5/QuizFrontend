@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    margin:0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.Header {
+    background-color: #0f486e; /* Change this to your desired background color */
+    padding: 10px; /* Add padding as needed */
+    text-align: center; /* Center the content horizontally */
+    color: white; /* Set text color to contrast with the background */
 }
+
+.homepage-container {
+    display: flex;
+    flex-direction: row; /* Stack items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Align items from the left */
+    height: 40vh; /* Make the container take the full viewport height */
+    padding: 20px; /* Add padding to create gaps on the left */
+    gap: 50px; /* Add some gap between items */
+  }
+  
+  .item-container {
+    text-align: left; /* Align text to the left */
+  }
