@@ -1,25 +1,49 @@
-body{
-    margin:0px;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; 
 }
 
 
 .Header {
-    background-color: #0f486e; /* Change this to your desired background color */
-    padding: 10px; /* Add padding as needed */
-    text-align: center; /* Center the content horizontally */
-    color: white; /* Set text color to contrast with the background */
+  background-color: #0f486e;
+  padding: 20px 0; 
+  text-align: center;
+  color: white;
+  font-size: 24px; 
 }
 
+
 .homepage-container {
-    display: flex;
-    flex-direction: row; /* Stack items horizontally */
-    align-items: center; /* Center items vertically */
-    justify-content: flex-start; /* Align items from the left */
-    height: 40vh; /* Make the container take the full viewport height */
-    padding: 20px; /* Add padding to create gaps on the left */
-    gap: 50px; /* Add some gap between items */
-  }
-  
-  .item-container {
-    text-align: left; /* Align text to the left */
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+  height: 80vh; 
+  gap: 20px; 
+}
+
+.item-container {
+  text-align: left;
+  max-width: 300px; 
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  border-radius: 5px; 
+}
+
+
+.button {
+  background-color: #0f486e; 
+  color: white;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+
+.button:hover {
+  background-color: #184c7f; 
+}

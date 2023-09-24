@@ -38,7 +38,7 @@ const GETAPI = () =>{
             {quizes.map((item, index) =>(
                <div key={index} className="item-container">
                 <ListItem key={index} data={item} />
-                <button onClick={() => handleSubmit(item.title)}className="button"> Start Quiz </button>
+                <button onClick={() => handleSubmit(item.title)}className="button"> Random Quiz </button>
                 </div>
           
             ))}

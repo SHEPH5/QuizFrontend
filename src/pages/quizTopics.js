@@ -107,7 +107,7 @@ const QuizTopics = () =>{
                         </div>
                     ))}
 
-                    <button type="submit" onClick={checkAnswer}>
+                    <button className="button" type="submit" onClick={checkAnswer}>
                         Submit Answer
                     </button>
                     
